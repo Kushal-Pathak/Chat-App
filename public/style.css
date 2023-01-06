@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #151b29;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    text-align: center;
+}
+
+#chat-window{
+    display: inline-block;
+    border: 5px solid #f1ff5c;
+    padding: 0 3%;
+    background: none;
+    box-shadow: 0 0.5em  0.5em -0.4em #f1ff5c;
+    width: 50%;
+    border-radius: 3px;
+    text-align: left;
+}
+
+h1{
+    display:inline-block;
+    margin-bottom: -5px;
+    padding: 1% 3%;
+    border-color: #f1ff5c;
+    background: none;
+    color: white;
+}
+
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+#chat-ul{
+    padding-left: 0;
+}
+.chat-li{
+    list-style: none;
+    text-align: left;
+    background-color: #f1ff5c;
+    margin: 1% 0;
+    color: black;
+    padding: 0 2%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#message{
+    border: 2px solid;
+    height: 90%;
+    width: 80%;
+    transition: all 0.5s;
+}
+#message:hover{
+    border-color: #f1ff5c;
+    box-shadow: 0 0.5em  0.5em -0.4em #f1ff5c;
+}
+
+#send-btn{
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 0.5em 1.5em;
+    transition: all 0.25s;
+    margin-left: 2px;
+}
+
+#send-btn:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em  0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.1em);
+    cursor: pointer;
+}
+
+@media (max-width: 850px){
+    #chat-window{
+        width: 90%;
+    }
+}
+
+
