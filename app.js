@@ -45,7 +45,6 @@ app.get('/', (req, res) => {
     res.render('chat', { allChats })
 })
 app.get('/get-msg', (req, res) => {
-    // res.send(JSON.stringify({allChats}))
     res.send({ allChats })
 })
 app.post('/', (req, res) => {
